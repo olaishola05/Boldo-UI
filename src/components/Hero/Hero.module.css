@@ -1,0 +1,99 @@
+.main {
+  background-color: var(--navyblue);
+  padding: 10px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.herotext h1 {
+  margin-top: 10px;
+  width: 567px;
+  height: 138px;
+  font-weight: 400;
+  font-size: 48px;
+  /* line-height: 72px; */
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.herotext p {
+  width: 567px;
+  height: 56px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 458px;
+  height: 60px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.btns button {
+  border: none;
+  border-radius: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns button:hover {
+  cursor: pointer;
+}
+
+.btns .buyBtn {
+  width: 247px;
+  height: 60px;
+  padding: 10px 56px;
+  gap: 8px;
+  background: var(--green);
+  border: 2px solid #69e6a6;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #0a2640;
+}
+
+.btns .exploreBtn {
+  padding: 16px 56px;
+  gap: 8px;
+  border: 2px solid #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  background: #0a2640;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.heroImg {
+  width: 493.86px;
+  height: 423px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: 1px solid red;
+}

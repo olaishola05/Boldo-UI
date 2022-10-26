@@ -26,6 +26,7 @@ ul {
   --navyblue: #0a2640;
   --green: #65e4a3;
   --footer-text: #777;
+  --to-elipse: #1C3D5B;
 }
 
 ol,
@@ -36,4 +37,13 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
