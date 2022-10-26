@@ -1,1 +1,0 @@
-# A template for react-redux with linters conifgured
