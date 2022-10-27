@@ -1,23 +1,31 @@
 .main {
   background-color: var(--navyblue);
-  padding: 10px 50px;
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.herocontainer{
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
+.herotext{
+  margin-top: 50px;
+}
+
 .herotext h1 {
-  margin-top: 10px;
-  width: 567px;
+  width: 530px;
   height: 138px;
   font-weight: 400;
   font-size: 48px;
-  display: flex;
-  align-items: center;
   color: white;
 }
 
 .herotext p {
-  width: 567px;
+  width: 490px;
   height: 56px;
   font-family: "Open Sans";
   font-style: normal;
@@ -101,4 +109,8 @@
   width: 80%;
   height: 100%;
   object-fit: cover;
+}
+
+.funding{
+  margin: 30px 0;
 }
