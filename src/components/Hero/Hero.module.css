@@ -1,6 +1,6 @@
 .main {
   background-color: var(--navyblue);
-  padding: 10px 35px;
+  padding: 10px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -11,7 +11,6 @@
   height: 138px;
   font-weight: 400;
   font-size: 48px;
-  /* line-height: 72px; */
   display: flex;
   align-items: center;
   color: white;
@@ -96,4 +95,10 @@
   order: 1;
   flex-grow: 0;
   border: 1px solid red;
+}
+
+.heroImg img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
 }
