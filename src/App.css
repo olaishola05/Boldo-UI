@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -26,6 +28,7 @@ ul {
   --navyblue: #0a2640;
   --green: #65e4a3;
   --footer-text: #777;
+  --to-elipse: #1c3d5b;
 }
 
 ol,
@@ -36,4 +39,13 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
