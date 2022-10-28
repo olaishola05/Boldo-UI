@@ -24,11 +24,11 @@ const Services = () => (
           <div>
             <h3>Cool feature title</h3>
             <p>Learning curve network effects return on investment.</p>
+            <Link to="/explore" className={styles.links}>
+              Explore page
+              <img src={arrowRight} alt="arrows" />
+            </Link>
           </div>
-          <Link to="/explore">
-            Explore page
-            <img src={arrowRight} alt="arrows" />
-          </Link>
         </div>
 
         <div className={styles.boxes}>
@@ -36,11 +36,11 @@ const Services = () => (
           <div>
             <h3>Cool feature title</h3>
             <p>Learning curve network effects return on investment.</p>
+            <Link to="/explore">
+              Explore page
+              <img src={arrowRight} alt="arrows" />
+            </Link>
           </div>
-          <Link to="/explore">
-            Explore page
-            <img src={arrowRight} alt="arrows" />
-          </Link>
         </div>
 
         <div className={styles.boxes}>
@@ -48,30 +48,32 @@ const Services = () => (
           <div>
             <h3>Cool feature title</h3>
             <p>Learning curve network effects return on investment.</p>
+            <Link to="/explore">
+              Explore page
+              <img src={arrowRight} alt="arrows" />
+            </Link>
           </div>
-          <Link to="/explore">
-            Explore page
-            <img src={arrowRight} alt="arrows" />
-          </Link>
         </div>
       </div>
     </div>
 
-    <div>
-      <img src={MaleImg} alt="Male infographic" />
-      <div>
+    <div className={styles.info}>
+      <div className={styles.infoImg}>
+        <img src={MaleImg} alt="Male infographic" />
+      </div>
+      <div className={styles.infotext}>
         <h3>We connect our customers with the best, and help them keep up-and stay open.</h3>
-        <div>
+        <div className={styles.infoitems}>
           <img src={Check} alt="tick" />
           <p>We connect our customers with the best.</p>
         </div>
 
-        <div>
+        <div className={styles.infoitems}>
           <img src={Check} alt="tick" />
           <p>Advisor success customer launch party.</p>
         </div>
 
-        <div>
+        <div className={styles.infoitems}>
           <img src={Check} alt="tick" />
           <p>Business-to-consumer long tail.</p>
         </div>
@@ -79,19 +81,23 @@ const Services = () => (
       </div>
     </div>
 
-    <div>
-      <img src={FemaleImg} alt="Female infographic" />
-      <div>
+    <div className={styles.info} style={{ display: 'flex', flexDirection: 'row-reverse' }}>
+      <div className={styles.infoImgTwo}>
+        <img src={FemaleImg} alt="Female infographic" />
+      </div>
+      <div className={styles.infotext}>
         <h3>We connect our customers with the best, and help them keep up-and stay open.</h3>
-        <div>
+        <div className={styles.infoitems}>
           <img src={leave} alt="tick" />
-          <p>We connect our customers with the best.</p>
+          <p>
+            We connect our customers with the best.
+          </p>
         </div>
-        <div>
+        <div className={styles.infoitems}>
           <img src={eye} alt="tick" />
           <p>Advisor success customer launch party.</p>
         </div>
-        <div>
+        <div className={styles.infoitems}>
           <img src={sun} alt="tick" />
           <p>Business-to-consumer long tail.</p>
         </div>
