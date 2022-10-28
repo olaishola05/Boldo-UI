@@ -1,4 +1,5 @@
 import './App.css';
+import Blog from './components/Blog/Blog';
 import FaqSection from './components/Faq/FaqSection';
 import Hero from './components/Hero/Hero';
 import Layout from './components/Layouts/Layout';
@@ -13,6 +14,7 @@ function App() {
         <Services />
         <Testimonies />
         <FaqSection />
+        <Blog />
       </div>
     </Layout>
   );

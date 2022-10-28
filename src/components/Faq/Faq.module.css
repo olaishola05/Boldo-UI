@@ -14,8 +14,6 @@
 .faqcontainer .faqText {
   display: flex;
   justify-content: space-between;
-
-  /* gap: 200px; */
 }
 
 .faqcontainer .faqText h3 {
