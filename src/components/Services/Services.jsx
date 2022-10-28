@@ -87,18 +87,18 @@ const Services = () => (
       </div>
       <div className={styles.infotext}>
         <h3>We connect our customers with the best, and help them keep up-and stay open.</h3>
-        <div className={styles.infoitems}>
-          <img src={leave} alt="tick" />
+        <div className={`${styles.infoitems2} ${styles.special}`}>
+          <img src={leave} alt="leave" />
           <p>
             We connect our customers with the best.
           </p>
         </div>
-        <div className={styles.infoitems}>
-          <img src={eye} alt="tick" />
+        <div className={styles.infoitems2}>
+          <img src={eye} alt="eye" />
           <p>Advisor success customer launch party.</p>
         </div>
-        <div className={styles.infoitems}>
-          <img src={sun} alt="tick" />
+        <div className={styles.infoitems2}>
+          <img src={sun} alt="sun" />
           <p>Business-to-consumer long tail.</p>
         </div>
       </div>

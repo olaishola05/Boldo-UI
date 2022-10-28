@@ -179,3 +179,41 @@
     color: #FFFFFF;
     margin-top: 20px;
 }
+
+.info .infotext .infoitems2, .special{
+    width: 500px;
+    height: 68px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.info .infotext .infoitems2 img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    color: #000000;
+}
+
+.info .infotext .special{
+    background-color: #0A2640;
+}
+
+.info .infotext .special p{
+    color: #FFFFFF !important;
+}
+
+.info .infotext .infoitems2 p{
+    width: 387px;
+    height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+}
