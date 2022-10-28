@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Footer from './Footer';
 import styles from './Layout.module.css';
 import TopNav from './TopBar';
 
@@ -8,6 +9,7 @@ function Layout(props) {
     <div className={styles.layout}>
       <TopNav />
       <main className={styles.main}>{children}</main>
+      <Footer />
     </div>
   );
 }
