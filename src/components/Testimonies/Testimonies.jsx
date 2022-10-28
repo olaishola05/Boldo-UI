@@ -1,5 +1,4 @@
 import React from 'react';
-// import { IoChevronDownCircleSharp } from 'react-icons/io5';
 import { FiArrowLeft, FiArrowRight } from 'react-icons/fi';
 import styles from './Testimonies.module.css';
 import testimonyImage1 from '../../images/Testimonial.png';
