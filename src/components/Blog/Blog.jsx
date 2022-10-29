@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Blog.module.css';
 import officeImg from '../../images/office2.png';
 import femaleIng from '../../images/female2.png';
@@ -39,6 +40,12 @@ const Blog = () => {
       userImg: monicaImg,
     },
   ];
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    navigate('/blog');
+  };
+
   return (
     <div className={styles.blogcontainer}>
       <h2>Our blog</h2>
@@ -68,7 +75,7 @@ const Blog = () => {
         ))}
       </div>
       <div className={styles.btnContainer}>
-        <button type="button" className={styles.btn}>Load more</button>
+        <button type="button" className={styles.btn} onClick={() => handleNavigation()}>Load more</button>
       </div>
     </div>
   );
