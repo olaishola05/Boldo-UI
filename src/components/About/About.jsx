@@ -5,6 +5,10 @@ import female from '../../images/female3.png';
 import suitImg from '../../images/suit.png';
 import fileImg from '../../images/files.png';
 import groupImg from '../../images/group.png';
+import mikeImg from '../../images/mike.png';
+import dwightImg from '../../images/dwight.png';
+import pamImg from '../../images/pam.png';
+import handshake from '../../images/handshake.png';
 
 const About = () => (
   <div className={styles.about}>
@@ -68,7 +72,84 @@ const About = () => (
           </div>
         </div>
       </div>
+
     </section>
+    <div className={styles.teams}>
+      <div className={styles.header}>
+        <h2>Our team</h2>
+        <h3>The leadership team</h3>
+      </div>
+      <p>
+        Conversion angel investor entrepreneur first mover advantage. Handshake
+        infographic mass market crowdfunding iteration.
+        Traction stock user experience deployment beta innovator incubator focus.
+      </p>
+    </div>
+
+    <div className={styles.ourteam}>
+      <div>
+        <img src={mikeImg} alt="Mike" />
+        <h5>Michael Scott</h5>
+        <span>General Manager</span>
+      </div>
+
+      <div>
+        <img src={dwightImg} alt="dwight" />
+        <h5>Dwight Schrute</h5>
+        <span>General Manager</span>
+      </div>
+
+      <div>
+        <img src={pamImg} alt="pam" />
+        <h5>Pam Beetsley</h5>
+        <span>General Manager</span>
+      </div>
+    </div>
+
+    <div className={styles.values}>
+      <div>
+        <h2>Our values</h2>
+        <h3>Things in we believe</h3>
+      </div>
+      <p>
+        Conversion angel investor entrepreneur first mover advantage.
+        Handshake infographic mass market crowdfunding iteration.
+        Traction stock user experience deployment beta innovator incubator focus.
+      </p>
+
+      <div className={styles.value}>
+        <img src={fileImg} alt="files" />
+        <div>
+          <h5>We are commited.</h5>
+          <p>
+            Conversion angel investor entrepreneur first mover advantage.
+            Handshake infographic mass market crowdfunding iteration.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.value}>
+        <img src={suitImg} alt="files" />
+        <div>
+          <h5>We are responsible.</h5>
+          <p>
+            Conversion angel investor entrepreneur first mover advantage.
+            Handshake infographic mass market crowdfunding iteration.
+          </p>
+        </div>
+      </div>
+
+      <div className={`${styles.value} ${styles.last}`}>
+        <img src={handshake} alt="files" />
+        <div>
+          <h5>We aim for progress.</h5>
+          <p>
+            Conversion angel investor entrepreneur first mover advantage.
+            Handshake infographic mass market crowdfunding iteration.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
