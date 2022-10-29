@@ -19,42 +19,53 @@ const Footer = () => (
     <div className={styles.footerBtm}>
       <div className={styles.links}>
         <img src={logoBlk} alt={logoBlk} />
-        <p>
-          Social media validation business model canvas graphical user
-          interface launch party creative facebook iPad twitter.
-
-        </p>
-        <div className={styles.footnavs}>
-          <ul>
+        <div className={styles.footnav}>
+          <ul className={styles.footnavs}>
             <li>
               Landings
-              <ul>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-              </ul>
             </li>
 
             <li>
               Company
-              <ul>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-              </ul>
             </li>
 
             <li>
               Resources
-              <ul>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-              </ul>
             </li>
           </ul>
         </div>
       </div>
+      <div className={styles.footerBtmText}>
+        <p>
+          Social media validation business model canvas graphical
+          user interface launch party creative facebook iPad twitter.
+        </p>
+
+        <div className={styles.reflinks}>
+          <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Services</li>
+          </ul>
+
+          <ul>
+            <li>Home</li>
+            <li>
+              Careers
+              {' '}
+              <span>Hiring!</span>
+            </li>
+            <li>Services</li>
+          </ul>
+
+          <ul>
+            <li>Blog</li>
+            <li>Products</li>
+            <li>Services</li>
+          </ul>
+        </div>
+      </div>
+      <p className={styles.copyright}>All rights reserved.</p>
     </div>
   </footer>
 );
