@@ -9,6 +9,8 @@ import mikeImg from '../../images/mike.png';
 import dwightImg from '../../images/dwight.png';
 import pamImg from '../../images/pam.png';
 import handshake from '../../images/handshake.png';
+import valueImg1 from '../../images/value1.png';
+import valueImg2 from '../../images/value2.png';
 
 const About = () => (
   <div className={styles.about}>
@@ -118,7 +120,7 @@ const About = () => (
       </p>
 
       <div className={styles.value}>
-        <img src={fileImg} alt="files" />
+        <img src={valueImg1} alt="files" />
         <div>
           <h5>We are commited.</h5>
           <p>
@@ -129,7 +131,7 @@ const About = () => (
       </div>
 
       <div className={styles.value}>
-        <img src={suitImg} alt="files" />
+        <img src={valueImg2} alt="files" />
         <div>
           <h5>We are responsible.</h5>
           <p>

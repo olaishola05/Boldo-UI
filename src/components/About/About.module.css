@@ -154,13 +154,15 @@
 
 .info .infographic{
     width: 1000px;
-    height: 124px;
     display: flex;
     justify-content: space-between;
-    margin: 92px auto;
+    margin: 82px auto;
+    padding-bottom: 92px;
 }
 
 .info .infographic div{
+    width: 297px;
+    height: 124px;
     display: flex;
     flex-direction: column;
     justify-content: center;
