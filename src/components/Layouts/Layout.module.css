@@ -19,11 +19,12 @@
 .logo {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .logo img {
   width: 30px;
-  height: 30px;
+  height: 35px;
 }
 
 a {
@@ -42,6 +43,15 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: black;
+}
+
+.dynamicLogo a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .logo h1 a {
@@ -128,6 +138,14 @@ a {
   padding-left: 20px;
 }
 
+.dynamicNav button {
+  background-color: #fff;
+  color: black;
+  padding: 8px 40px;
+  border-radius: 24px;
+  border: 1px  solid black;
+}
+
 .footerTopForm .form button {
   display: flex;
   justify-content: center;
@@ -207,6 +225,14 @@ a {
   margin-left: 20px;
 }
 
+.dynamicNav ul {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footerBtmText .reflinks ul {
   width: 150px;
   height: 72px;
@@ -249,4 +275,43 @@ a {
   line-height: 28px;
   padding-top: 25px;
   color: var(--gray-text);
+}
+
+/* dynamic route background */
+.dynamicNav {
+  background-color: #fff;
+  color: black;
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dynamicLogo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dynamicLogo img {
+  width: 33px;
+  height: 34px;
+}
+
+.dynamicLogo h1 a {
+  font-family: 'Manrope', sans-serif;
+  font-size: 43.25px;
+  margin-left: 5px;
+  color: black;
+  font-weight: 400;
+}
+
+.dynamicNav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+  cursor: pointer;
 }

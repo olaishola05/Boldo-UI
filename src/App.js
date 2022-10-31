@@ -1,22 +1,36 @@
 import './App.css';
-import Blog from './components/Blog/Blog';
-import FaqSection from './components/Faq/FaqSection';
-import Hero from './components/Hero/Hero';
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Layout from './components/Layouts/Layout';
-import Services from './components/Services/Services';
-import Testimonies from './components/Testimonies/Testimonies';
+import Home from './components/Home/Home';
+import BlogHomepage from './components/Blog/BlogHomepage';
+import About from './components/About/About';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      document.title = 'Home';
+    }
+    if (location.pathname === '/blog') {
+      document.title = 'Blog';
+    }
+    if (location.pathname === '/about') {
+      document.title = 'About';
+    }
+  }, [location]);
+
   return (
-    <Layout>
-      <div className="App">
-        <Hero />
-        <Services />
-        <Testimonies />
-        <FaqSection />
-        <Blog />
-      </div>
-    </Layout>
+    <div className="App">
+      <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route path="/blog" element={<BlogHomepage />} />
+        </Routes>
+      </Layout>
+    </div>
   );
 }
 

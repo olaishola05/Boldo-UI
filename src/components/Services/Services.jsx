@@ -13,7 +13,7 @@ import shakingImg from '../../images/shake.png';
 import styles from './Service.module.css';
 
 const Services = () => (
-  <div className={styles.services}>
+  <div className={styles.services} id="service">
     <h2>Our Services</h2>
     <div>
       <h3 className={styles.heading}>Handshake infographic mass market crowdfunding iteration.</h3>
