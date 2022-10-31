@@ -1,359 +1,358 @@
-.aboutTop{
-    background-color: var(--navyblue);
-    padding: 20px 0;
+.aboutTop {
+  background-color: var(--navyblue);
+  padding: 20px 0;
 }
 
-.about .aboutTop h2{
-    width: 57px;
-    height: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #F1F1F1;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 12px;
+.story h2 {
+  width: 89px;
+  height: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--gray-text);
+  margin-bottom: 12px;
 }
 
-.about .aboutTop h3{
-    width: 842px;
-    height: 168px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 84px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin: auto;
-    margin-bottom: 12px;
+.story h3 {
+  width: 842px;
+  height: 144px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-bottom: 30px;
 }
 
-.about .aboutTop p{
-    width: 745.37px;
-    height: 64px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    text-align: center;
-    color: #F1F1F1;
-    margin: 0 auto;
-    margin-bottom: 70px;
+.story p {
+  width: 799px;
+  height: 168px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--gray-text);
+  margin-bottom: 96px;
 }
 
-.imageBox{
-    width: 70%;
-    height: 50%;
-    margin: 0 auto;
-    margin-top: -60px;
+.info {
+  background-color: var(--navyblue);
 }
 
-.imageBox .images{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+.info h2 {
+  height: 32px;
+  padding: 94px 637px 12px 637px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+  margin-bottom: 12px;
 }
 
-
-.imageBox .images img{
-    width: 300px;
-    height: 302px;
-    object-fit: cover;
-    border-radius: 24px;
+.info h3 {
+  width: 842px;
+  height: 144px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: auto;
 }
 
-.imageBox .images .gridItem{
-    grid-row-end: span 4;
-    width: 100%;
-    height: 632px;
+.header h2 {
+  width: 90px;
+  height: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: var(--gray-text);
 }
 
-.story{
-    width: 80%;
-    margin: auto;
+.header h3 {
+  width: 842px;
+  height: 72px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
-.story h2{
-    width: 89px;
-    height: 32px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--gray-text);
-    margin-bottom: 12px;
+.teams p {
+  width: 799px;
+  height: 110px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--gray-text);
+  margin: auto;
 }
 
-.story h3{
-    width: 842px;
-    height: 144px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 65px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    margin-bottom: 30px;
+.values h2 {
+  width: 101px;
+  height: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 12px;
 }
 
-.story p{
-    width: 799px;
-    height: 168px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--gray-text);
-    margin-bottom: 96px;
+.values h3 {
+  width: 842px;
+  height: 72px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 22.5px;
 }
 
-.info{
-    background-color: var(--navyblue);
+.values p {
+  width: 799px;
+  height: 110px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+  margin-bottom: 72px;
 }
 
-.info h2{
-    height: 32px;
-    padding: 94px 637px 12px 637px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #F1F1F1;
-    margin-bottom: 12px;
+.about .aboutTop h2 {
+  width: 57px;
+  height: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 12px;
 }
 
-.info h3{
-    width: 842px;
-    height: 144px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    margin: auto;
+.about .aboutTop h3 {
+  width: 842px;
+  height: 168px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 12px;
 }
 
-.info .infographic{
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    margin: 82px auto;
-    padding-bottom: 92px;
+.value div p {
+  width: 680px;
+  height: 99px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f1f1f1;
 }
 
-.info .infographic div{
-    width: 297px;
-    height: 124px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.about .aboutTop p {
+  width: 745.37px;
+  height: 64px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #f1f1f1;
+  margin: 0 auto;
+  margin-bottom: 70px;
 }
 
-.info .infographic div h4{
-    width: 233px;
-    height: 56px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 56px;
-    color: var(--green);
-    margin-bottom: 32px;
+.imageBox {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: -60px;
 }
 
-.info .infographic div span{
-    width: 187px;
-    height: 36px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #F1F1F1;
-    margin-bottom: 40px;
+.imageBox .images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 }
 
-.teams .header{
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: auto;
-    margin-bottom: 22.5px;
+.value img {
+  width: 150px;
+  height: 151px;
+  object-fit: cover;
+  border-radius: 24px;
 }
 
-.header h2{
-    width: 90px;
-    height: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color: var(--gray-text);
+.imageBox .images img {
+  width: 300px;
+  height: 302px;
+  object-fit: cover;
+  border-radius: 24px;
 }
 
-.header h3{
-    width: 842px;
-    height: 72px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+.imageBox .images .gridItem {
+  grid-row-end: span 4;
+  width: 100%;
+  height: 632px;
 }
 
-.teams p{
-    width: 799px;
-    height: 110px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--gray-text);
-    margin: auto;
+.story {
+  width: 80%;
+  margin: auto;
 }
 
-.ourteam{
-    width: 900px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 51px;
-    margin: 52px auto;
+.info .infographic {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 82px auto;
+  padding-bottom: 92px;
 }
 
-.ourteam div h5{
-    width: 200px;
-    height: 48px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-    margin-bottom: 12px;
+.info .infographic div {
+  width: 297px;
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.ourteam div span{
-    width: 162px;
-    height: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: var(--gray-text);
+.info .infographic div h4 {
+  width: 233px;
+  height: 56px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 56px;
+  color: var(--green);
+  margin-bottom: 32px;
 }
 
-.values{
-    background-color: var(--navyblue);
-    padding: 120px 300px;
-    margin-bottom: 60px;
+.ourteam div span {
+  width: 162px;
+  height: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--gray-text);
 }
 
-.values h2{
-    width: 101px;
-    height: 32px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    margin-bottom: 12px;
+.info .infographic div span {
+  width: 187px;
+  height: 36px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f1f1f1;
+  margin-bottom: 40px;
 }
 
-.values h3{
-    width: 842px;
-    height: 72px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    margin-bottom: 22.5px;
+.teams .header {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: auto;
+  margin-bottom: 22.5px;
 }
 
-.values p{
-    width: 799px;
-    height: 110px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #F1F1F1;
-    margin-bottom: 72px;
+.ourteam {
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 51px;
+  margin: 52px auto;
+}
+
+.ourteam div h5 {
+  width: 200px;
+  height: 48px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.values {
+  background-color: var(--navyblue);
+  padding: 120px 300px;
+  margin-bottom: 60px;
 }
 
 .value {
-    width: 800px;
-    height: 151px;
-    display: flex;
-    gap: 50px;
-    margin-bottom: 75px;
+  width: 800px;
+  height: 151px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 75px;
 }
 
-.value img{
-    width: 150px;
-    height: 151px;
-    object-fit: cover;
-    border-radius: 24px;
+.value div h5 {
+  margin-bottom: 16px;
+  width: 842px;
+  height: 39px;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
-.value div h5   { 
-    margin-bottom: 16px;
-    width: 842px;
-    height: 39px;
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.value div p{
-    width: 680px;
-    height: 99px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #F1F1F1;
-}
-
-.last{
-    margin-bottom: 0;
+.last {
+  margin-bottom: 0;
 }

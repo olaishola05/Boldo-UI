@@ -45,6 +45,15 @@ a {
   color: black;
 }
 
+.dynamicLogo a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
 .logo h1 a {
   font-family: 'Manrope', sans-serif;
   font-size: 43.25px;
@@ -129,6 +138,14 @@ a {
   padding-left: 20px;
 }
 
+.dynamicNav button {
+  background-color: #fff;
+  color: black;
+  padding: 8px 40px;
+  border-radius: 24px;
+  border: 1px  solid black;
+}
+
 .footerTopForm .form button {
   display: flex;
   justify-content: center;
@@ -208,6 +225,14 @@ a {
   margin-left: 20px;
 }
 
+.dynamicNav ul {
+  width: 30%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footerBtmText .reflinks ul {
   width: 150px;
   height: 72px;
@@ -253,7 +278,7 @@ a {
 }
 
 /* dynamic route background */
-.dynamicNav{
+.dynamicNav {
   background-color: #fff;
   color: black;
   width: 100%;
@@ -273,29 +298,12 @@ a {
   height: 34px;
 }
 
-.dynamicLogo  a {
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-}
-
 .dynamicLogo h1 a {
   font-family: 'Manrope', sans-serif;
   font-size: 43.25px;
   margin-left: 5px;
   color: black;
   font-weight: 400;
-}
-
-.dynamicNav ul {
-  width: 30%;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .dynamicNav ul li a {
@@ -306,13 +314,4 @@ a {
   line-height: 28px;
   color: black;
   cursor: pointer;
-}
-
-.dynamicNav button {
-  background-color: #fff;
-  color: black;
-  padding: 8px 40px;
-  border: none;
-  border-radius: 24px;
-  border: 1px  solid black;
 }
