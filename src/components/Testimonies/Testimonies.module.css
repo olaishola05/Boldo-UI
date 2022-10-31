@@ -1,0 +1,59 @@
+.container {
+  padding: 50px 80px;
+  background-color: var(--navyblue);
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+}
+
+.containertop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.containertop h3 {
+  width: 716px;
+  height: 139px;
+  color: white;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.containertop .arrows {
+  display: flex;
+  gap: 28px;
+  margin-top: 95px;
+}
+
+.containertop .arrows div {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containertop .arrows .icons {
+  color: black;
+  width: 36px;
+  height: 39px;
+}
+
+.imagegrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.imagegrid img {
+  width: 100%;
+  object-fit: cover;
+}
