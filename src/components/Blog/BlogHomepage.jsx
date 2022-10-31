@@ -3,12 +3,12 @@ import styles from './Blog.module.css';
 import chandlierImg from '../../images/chand.png';
 import BlogList1 from './BlogList1';
 import BlogList2 from './BlogList2';
-import { blogs } from './Blog';
+import blogs from './Blog';
 import Button from './Button';
 import blogImg from '../../images/blogImg.png';
 
 const handleNavigation = () => {
-  console.log('clicked');
+  console.log('Take me somewhere');
 };
 const BlogHomepage = () => (
   <div className={styles.blogHomepage}>
