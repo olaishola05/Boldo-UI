@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Link to App
 
-- [Live link here]()
+- [Live link here](https://boldo-uiproject.vercel.app/)
 
 ## Built With
 
