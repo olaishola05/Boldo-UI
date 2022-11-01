@@ -21,4 +21,4 @@ ThemeProvider.propTypes = {
   children: propTypes.node.isRequired,
 };
 
-export default ThemeProvider;
+export { ThemeProvider, ThemeContext };
