@@ -31,7 +31,7 @@ function TopBar() {
   }, [key, hash]);
 
   useEffect(() => {
-    if (window.location.pathname === '/blog') {
+    if (location.pathname === '/blog') {
       setChangeClass(styles.dynamicNav);
       setLogo(styles.dynamicLogo);
       setBrand(blackLogo);
@@ -43,7 +43,7 @@ function TopBar() {
   }, [location]);
 
   return (
-    <div className={changeClass} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>
+    <div className={changeClass} style={isTheme ? { backgroundColor: 'white', color: 'black', transition: 'background .5s ease' } : {}}>
       <div className={logo}>
         <img src={isTheme ? blackLogo : brand} alt="company logo" />
         <h1><Link to="/" style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>Boldo</Link></h1>
@@ -61,9 +61,12 @@ function TopBar() {
             )}
           </li>
         )) }
-        <li className={styles.toggle} onClick={() => toggleTheme()}>
-          {isTheme ? <BsToggleOn /> : <BsToggleOff />}
-        </li>
+        {location.pathname === '/blog' ? '' : (
+          <li className={styles.toggle} onClick={() => toggleTheme()}>
+            {isTheme ? <BsToggleOn /> : <BsToggleOff />}
+          </li>
+        )}
+
       </ul>
     </div>
   );

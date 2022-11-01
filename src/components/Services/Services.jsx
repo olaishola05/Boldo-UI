@@ -16,9 +16,9 @@ import { ThemeContext } from '../Themes/ThemeContext';
 const Services = () => {
   const { isTheme } = React.useContext(ThemeContext);
   return (
-    <div className={styles.services} id="service" style={isTheme ? { padding: 0 } : {}}>
+    <div className={styles.services} id="service" style={isTheme ? { padding: 0, transition: 'background .5s ease' } : {}}>
       <div style={isTheme ? {
-        backgroundColor: '#0A2640', color: 'white', padding: '50px 80px',
+        backgroundColor: '#0A2640', color: 'white', padding: '50px 80px', transition: 'background .5s ease',
       } : {}}
       >
         <h2 style={isTheme ? { color: '#F1F1F1' } : {}}>Our Services</h2>
