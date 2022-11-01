@@ -7,7 +7,6 @@ import Logo from '../../images/Logo.png';
 import styles from './Layout.module.css';
 import blackLogo from '../../images/brand.png';
 import { ThemeContext } from '../Themes/ThemeContext';
-// import themeStyles from '../Themes/Themes.module.css';
 
 function TopBar() {
   const [changeClass, setChangeClass] = useState(styles.navcontainer);

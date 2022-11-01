@@ -1,15 +1,13 @@
 import './App.css';
-import { useEffect, useContext } from 'react';
+import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Layout from './components/Layouts/Layout';
 import Home from './components/Home/Home';
 import BlogHomepage from './components/Blog/BlogHomepage';
 import About from './components/About/About';
-import { ThemeContext } from './components/Themes/ThemeContext';
 
 function App() {
   const location = useLocation();
-  const { isDarkTheme } = useContext(ThemeContext);
 
   useEffect(() => {
     if (location.pathname === '/') {
@@ -24,7 +22,7 @@ function App() {
   }, [location]);
 
   return (
-    <div className={`'App', ${isDarkTheme ? 'dark' : 'light'}`}>
+    <div className="App">
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home />} />
