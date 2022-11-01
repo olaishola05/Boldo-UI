@@ -4,9 +4,9 @@ import logoBlk from '../../images/Logoblk.png';
 import { ThemeContext } from '../Themes/ThemeContext';
 
 const Footer = () => {
-  const { isDarkTheme } = React.useContext(ThemeContext);
+  const { isTheme } = React.useContext(ThemeContext);
   return (
-    <footer className={isDarkTheme ? `${styles.darkMode}` : `${styles.footer}`}>
+    <footer className={isTheme ? `${styles.darkMode}` : `${styles.footer}`}>
       <div className={styles.footerTop}>
         <div className={styles.footerTopForm}>
           <h3>An enterprise template to ramp up your company website</h3>

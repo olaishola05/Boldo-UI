@@ -13,7 +13,7 @@ function TopBar() {
   const [changeClass, setChangeClass] = useState(styles.navcontainer);
   const [logo, setLogo] = useState(styles.logo);
   const [brand, setBrand] = useState(styles.Logo);
-  const { isDarkTheme, toggleTheme } = React.useContext(ThemeContext);
+  const { isTheme, toggleTheme } = React.useContext(ThemeContext);
 
   const links = [
     { to: '/', text: 'Product' },
@@ -44,26 +44,26 @@ function TopBar() {
   }, [location]);
 
   return (
-    <div className={changeClass} style={isDarkTheme ? { backgroundColor: 'white', color: 'black' } : {}}>
+    <div className={changeClass} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>
       <div className={logo}>
-        <img src={isDarkTheme ? blackLogo : brand} alt="company logo" />
-        <h1><Link to="/" style={isDarkTheme ? { backgroundColor: 'white', color: 'black' } : {}}>Boldo</Link></h1>
+        <img src={isTheme ? blackLogo : brand} alt="company logo" />
+        <h1><Link to="/" style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>Boldo</Link></h1>
       </div>
 
       <ul>
         { links.map((link) => (
           <li key={link.to}>
             {link.to === '/login' ? (
-              <button type="button" className={styles.navbtn} style={isDarkTheme ? { backgroundColor: 'white', color: 'black', border: '1px solid black' } : {}}>
+              <button type="button" className={styles.navbtn} style={isTheme ? { backgroundColor: 'white', color: 'black', border: '1px solid black' } : {}}>
                 <Link to={link.to}>{link.text}</Link>
               </button>
             ) : (
-              <Link to={link.to} style={isDarkTheme ? { backgroundColor: 'white', color: 'black' } : {}}>{link.text}</Link>
+              <Link to={link.to} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>{link.text}</Link>
             )}
           </li>
         )) }
         <li className={styles.toggle} onClick={() => toggleTheme()}>
-          {isDarkTheme ? <BsToggleOn /> : <BsToggleOff />}
+          {isTheme ? <BsToggleOn /> : <BsToggleOff />}
         </li>
       </ul>
     </div>

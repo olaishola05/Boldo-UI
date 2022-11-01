@@ -4,14 +4,14 @@ import propTypes from 'prop-types';
 const ThemeContext = createContext(false);
 
 const ThemeProvider = ({ children }) => {
-  const [isDarkTheme, setIsDarkTheme] = React.useState(false);
+  const [isTheme, setTheme] = React.useState(false);
 
   const toggleTheme = () => {
-    setIsDarkTheme(!isDarkTheme);
+    setTheme(!isTheme);
   };
 
   return (
-    <ThemeContext.Provider value={{ isDarkTheme, toggleTheme }}>
+    <ThemeContext.Provider value={{ isTheme, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );
