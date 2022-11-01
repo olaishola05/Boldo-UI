@@ -315,3 +315,8 @@ a {
   color: black;
   cursor: pointer;
 }
+
+.toggle{
+  width: 50px;
+  font-size: 32px;
+}
