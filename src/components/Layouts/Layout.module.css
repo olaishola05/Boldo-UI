@@ -14,6 +14,7 @@
   padding: 71px 80px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
@@ -34,6 +35,26 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--navyblue);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.hamburger:hover {
+  background-color: var(--navyblue);
 }
 
 .navbtn a {
@@ -319,4 +340,63 @@ a {
 .toggle {
   width: 50px;
   font-size: 40px;
+}
+
+/* Media query */
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navcontainer, .dynamicNav {
+    padding: 40px 20px;
+  }
+
+  .navcontainer ul {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(80vh - 60px);
+    background-color: var(--navyblue);
+    border-top: 1px solid black;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .navcontainer.expanded ul{
+    display: block;
+  }
+
+  .navcontainer ul li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .navcontainer ul li a {
+    width: 100%;
+  }
+
+  .navcontainer ul li a:hover {
+    color: var(--green);
+  }
+
+  .dynamicNav ul{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(60% - 60px);
+    background-color: white;
+    padding: 20px 0;
+    border-top: 1px solid black;
+  }
+
+  .dynamicNav ul li {
+    text-align: center;
+    margin: 0;
+  }
 }
