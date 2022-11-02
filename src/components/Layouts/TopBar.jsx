@@ -66,25 +66,26 @@ function TopBar() {
 
       </button>
 
-      <ul>
-        { links.map((link) => (
-          <li key={link.to}>
-            {link.to === '/login' ? (
-              <button type="button" className={styles.navbtn} style={isTheme ? { backgroundColor: 'white', color: 'black', border: '1px solid black' } : {}}>
-                <Link to={link.to}>{link.text}</Link>
-              </button>
-            ) : (
-              <Link to={link.to} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>{link.text}</Link>
-            )}
-          </li>
-        )) }
-        {location.pathname === '/blog' ? '' : (
-          <li className={styles.toggle} onClick={() => toggleTheme()}>
-            {isTheme ? <BsToggleOn /> : <BsToggleOff />}
-          </li>
-        )}
-
-      </ul>
+      <div className={styles.navigationMenu}>
+        <ul>
+          { links.map((link) => (
+            <li key={link.to}>
+              {link.to === '/login' ? (
+                <button type="button" className={styles.navbtn} style={isTheme ? { backgroundColor: 'white', color: 'black', border: '1px solid black' } : {}}>
+                  <Link to={link.to}>{link.text}</Link>
+                </button>
+              ) : (
+                <Link to={link.to} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>{link.text}</Link>
+              )}
+            </li>
+          )) }
+          {location.pathname === '/blog' ? '' : (
+            <li className={styles.toggle} onClick={() => toggleTheme()}>
+              {isTheme ? <BsToggleOn /> : <BsToggleOff />}
+            </li>
+          )}
+        </ul>
+      </div>
     </div>
   );
 }

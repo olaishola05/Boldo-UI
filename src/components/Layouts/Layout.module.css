@@ -83,12 +83,15 @@ a {
   font-weight: 400;
 }
 
-.navcontainer ul {
+.navigationMenu {
   width: 35%;
-  list-style: none;
+}
+
+.navigationMenu ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .navbtn {
@@ -246,8 +249,7 @@ a {
   margin-left: 20px;
 }
 
-.dynamicNav ul {
-  width: 30%;
+.dynamicNav .navigationMenu ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -303,7 +305,7 @@ a {
   background-color: #fff;
   color: black;
   width: 100%;
-  padding: 20px 80px;
+  padding: 71px 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -353,7 +355,7 @@ a {
     padding: 40px 20px;
   }
 
-  .navcontainer ul {
+  .navigationMenu ul {
     position: absolute;
     top: 90px;
     left: 0;
@@ -366,7 +368,7 @@ a {
     display: none;
   }
 
-  .navcontainer.expanded ul{
+  .navigationMenu.expanded ul{
     display: block;
   }
 
