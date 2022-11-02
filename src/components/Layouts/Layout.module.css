@@ -369,19 +369,19 @@ a {
   }
 
   .navigationMenu.expanded ul{
-    display: block;
+    display: flex;
   }
 
-  .navcontainer ul li {
+  .navigationMenu ul li {
     text-align: center;
     margin: 0;
   }
 
-  .navcontainer ul li a {
+  .navigationMenu ul li a {
     width: 100%;
   }
 
-  .navcontainer ul li a:hover {
+  .navigationMenu ul li a:hover {
     color: var(--green);
   }
 

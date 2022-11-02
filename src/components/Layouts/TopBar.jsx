@@ -43,6 +43,10 @@ function TopBar() {
     }
   }, [location]);
 
+  const handleNavExpand = () => {
+    setIsNavExpanded(!isNavExpanded);
+  };
+
   return (
     <div className={changeClass} style={isTheme ? { backgroundColor: 'white', color: 'black', transition: 'background .5s ease' } : {}}>
       <div className={logo}>
@@ -50,7 +54,11 @@ function TopBar() {
         <h1><Link to="/" style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>Boldo</Link></h1>
       </div>
 
-      <button type="button" className={styles.hamburger} onClick={() => setIsNavExpanded(!isNavExpanded)}>
+      <button
+        type="button"
+        className={styles.hamburger}
+        onClick={handleNavExpand}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -66,7 +74,7 @@ function TopBar() {
 
       </button>
 
-      <div className={styles.navigationMenu}>
+      <div className={isNavExpanded ? `${styles.navigationMenu} ${styles.expanded}` : styles.navigationMenu}>
         <ul>
           { links.map((link) => (
             <li key={link.to}>
