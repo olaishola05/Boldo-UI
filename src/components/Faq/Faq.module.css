@@ -50,3 +50,30 @@
   width: 28px;
   height: 28px;
 }
+
+@media  screen and (max-width: 768px)  {
+  .faqcontainer{
+    width: 100%;
+    padding: 50px 20px;
+  }
+
+  .faqcontainer .faqText{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faqcontainer .faqText h3{
+    width: 100%;
+    font-size: 26px;
+    line-height: 46px;
+  }
+
+  .texwithticons{
+    padding-bottom: 40px;
+  }
+
+  .texwithticons p{
+    width: 100%;
+    font-size: 18px;
+  }
+}

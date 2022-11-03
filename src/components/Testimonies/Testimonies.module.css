@@ -57,3 +57,30 @@
   width: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .main{
+    width: 100%;
+  }
+
+  .containertop h3{
+    width: 100%;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .containertop .arrows {
+    display: none;
+  }
+
+  .imagegrid{
+    display: flex;
+    flex-direction: column;
+  }
+}
