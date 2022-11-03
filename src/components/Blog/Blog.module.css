@@ -241,3 +241,31 @@
   margin: auto;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px){
+  .blogcontainer{
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .blogcontainer h3{
+    width: 100%;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 10px;
+  }
+
+  .blogs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .blog{
+    margin: auto;
+  }
+
+  .blog > img{
+    width: 100%;
+  }
+}
