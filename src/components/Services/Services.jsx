@@ -91,7 +91,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className={styles.info} style={isTheme ? { padding: '0px 80px', display: 'flex', flexDirection: 'row-reverse' } : { display: 'flex', flexDirection: 'row-reverse' }}>
+      <div className={`${styles.info} ${styles.reverse}`} style={isTheme ? { padding: '0px 80px', display: 'flex', flexDirection: 'row-reverse' } : { display: 'flex', flexDirection: 'row-reverse' }}>
         <div className={styles.infoImgTwo}>
           <img src={FemaleImg} alt="Female infographic" />
         </div>
