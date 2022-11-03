@@ -94,6 +94,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
+  height: 60px;
 }
 
 .heroImg {
@@ -102,7 +103,6 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  border: 1px solid red;
 }
 
 .heroImg img {
@@ -113,4 +113,51 @@
 
 .funding {
   margin: 30px 0;
+}
+
+@media screen and (max-width: 768px){
+  .main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .herotext h1{
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .herotext p{
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .herocontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .btns {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btns .buyBtn{
+    width: 190px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+
+  .btns .exploreBtn{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 40px;
+  }
+
+  .heroimg{
+    display: none;
+  }
 }
