@@ -47,6 +47,10 @@ function TopBar() {
     setIsNavExpanded(!isNavExpanded);
   };
 
+  const handleClose = () => {
+    setIsNavExpanded(false);
+  };
+
   return (
     <div className={changeClass} style={isTheme ? { backgroundColor: 'white', color: 'black', transition: 'background .5s ease' } : {}}>
       <div className={logo}>
@@ -83,7 +87,7 @@ function TopBar() {
                   <Link to={link.to}>{link.text}</Link>
                 </button>
               ) : (
-                <Link to={link.to} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>{link.text}</Link>
+                <Link to={link.to} style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}} onClick={() => handleClose()}>{link.text}</Link>
               )}
             </li>
           )) }
