@@ -268,4 +268,46 @@
   .blog > img{
     width: 100%;
   }
+
+  .blogHomepage{
+    padding: 0;
+  }
+
+  .blogHomepage .top{
+    width: 100%;
+  }
+
+  .blogHomepage .top h3{
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .blogHomepage .blogItem{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .blogHomepage .blogItemImg{
+    width: 350px;
+    padding: 20px;
+  }
+
+  .blogItemContent{
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .blogItemContent p{
+    width: 400px;
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .blogHomepage hr{
+    margin-top: 100px;
+  }
 }
+
+  /* @media screen and (max-width: 768px){
+    
+} */
