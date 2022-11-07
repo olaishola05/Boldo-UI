@@ -427,4 +427,39 @@ a {
   .footerTopForm input{
     width: 300px;
   }
+
+  .footerBtm{
+    width: 100%;
+    padding: 80px 10px;
+  }
+
+  .footerBtm .links,
+  .footerBtm .footerBtmText{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footerBtm .footnavs{
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.footnavs li{
+  font-weight: 400;
+  width: 100%;
+}
+
+.footerBtmText p{
+  width: 100%;
+}
+
+.footerBtmText .reflinks{
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 80px;
+}
+
 }
