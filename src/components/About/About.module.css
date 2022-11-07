@@ -453,6 +453,27 @@
       text-align: justify;
     }
 
+    .values h2{
+      width: 200px;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .values h3{
+      width: 100%;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: center;
+      margin: 50px 0;
+    }
+
+    .values p{
+      width: auto;
+      text-align: justify;
+      margin-bottom: 120px;
+    }
+
     .ourteam{
       width: auto;
       grid-template-columns: 1fr;
@@ -495,7 +516,22 @@
     }
 
     .values{
-      border: 1px solid white;
       padding: 120px 20px;
+    }
+
+    .value{
+      width: auto;
+      /* border: 1px solid red; */
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .value div p{
+      width: auto;
+      font-size: 18px;
+    }
+
+    .value img{
+      display: none;
     }
   }
