@@ -47,7 +47,7 @@ a {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 50%;
+  /* top: 50%; */
   right: 25px;
   transform: translateY(-50%);
   display: none;
@@ -164,9 +164,9 @@ a {
 }
 
 .dynamicNav button {
-  background-color: #fff;
+  /* background-color: #fff; */
   color: black;
-  padding: 8px 40px;
+  /* padding: 8px 40px; */
   border-radius: 24px;
   border: 1px  solid black;
 }
@@ -356,15 +356,17 @@ a {
   .main{
     width: 100%;
   }
+  
   .hamburger {
     display: block;
+    margin-top: 20px;
   }
 
   .navcontainer, .dynamicNav {
     padding: 40px 20px;
   }
 
-  .navigationMenu ul {
+  .dynamicNav .navigationMenu ul, .navigationMenu ul {
     position: absolute;
     top: 90px;
     left: 0;
@@ -377,11 +379,11 @@ a {
     display: none;
   }
 
-  .navigationMenu.expanded ul{
+  .dynamicNav .navigationMenu.expanded ul, .navigationMenu.expanded ul{
     display: flex;
   }
 
-  .navigationMenu ul li {
+  .dynamicNav .navigationMenu ul li, .navigationMenu ul li {
     text-align: center;
     margin: 0;
   }

@@ -79,7 +79,7 @@ function TopBar() {
       </button>
 
       <div className={isNavExpanded ? `${styles.navigationMenu} ${styles.expanded}` : styles.navigationMenu}>
-        <ul>
+        <ul style={isTheme ? { backgroundColor: 'white', color: 'black' } : {}}>
           { links.map((link) => (
             <li key={link.to}>
               {link.to === '/login' ? (
