@@ -67,8 +67,8 @@ npm start
 
 👤 **Ola Ishola**
 
-- GitHub: [@netman5](https://github.com/netman5)
-- Twitter: [@Orlaish](https://twitter.com/Orlaish)
+- GitHub: [@olaishola05](https://github.com/olaishola05)
+- Twitter: [@olaishola05](https://twitter.com/olaishola05)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
 
 ## 🤝 Contributing
